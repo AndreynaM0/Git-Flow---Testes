@@ -44,3 +44,10 @@ button {
     color:black;
     margin-top: 10px;
 }
+
+.mensagem {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 0.5rem;
+    font-size: 15px;
+}
