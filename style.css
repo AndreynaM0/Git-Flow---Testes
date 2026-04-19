@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  
+}
+
+.blocoPrincipal {
+    margin: 10px;
+    padding: 10%;
+    align-items: center;
+    background-color: darkslategrey;
+    gap: 30px;
+}
+
+h3{
+    display: flex;
+    text-align: center;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    padding: 0px 0px 0px 7px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    border-radius: 32px;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color:black;
+    margin-top: 10px;
+}
