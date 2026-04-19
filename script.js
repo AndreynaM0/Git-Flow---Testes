@@ -1,14 +1,14 @@
 let email = document.getElementById("email");
 let senha = document.getElementById("senha");
 let botao = document.getElementById("botao");
-let alerta = document.getElementById("mensagem")
+let mensagem = document.getElementById("mensagem")
 
 function validarCampos(){
     let letrasMaiusculas = /[A-Z]/.test(senha.value);
     let numeros = /[0-9]/.test(senha.value);
     let especiais = /[!@$%&*\.\/#?]/.test(senha.value);
     let regexEmail = /\S+@\S+\.\S+/.test(email.value);
-}
+
 
 if(email.value.length === 0 || senha.value.length === 0){
     mensagem.style.color = 'red';
@@ -19,7 +19,7 @@ if(email.value.length === 0 || senha.value.length === 0){
     mensagem.style.backgroundColor = '#eee0e08e';
     mensagem.innerHTML = "Campo email deve conter no mínimo 10 caracteres";
 } else if (!regexEmail){
-     mensagem.style.color = 'red';
+    mensagem.style.color = 'red';
     mensagem.style.backgroundColor = '#eee0e08e';
     mensagem.innerHTML = "O e-mail deve ter '@' e '.'";
 }else if (senha.value.length <6){
@@ -27,13 +27,14 @@ if(email.value.length === 0 || senha.value.length === 0){
     mensagem.style.backgroundColor = '#eee0e08e';
     mensagem.innerHTML = "A senha deve conter no mínimo 6 caracteres";
 }else if(!letrasMaiusculas || !numeros || !especiais){
-     mensagem.style.color = 'red';
+    mensagem.style.color = 'red';
     mensagem.style.backgroundColor = '#eee0e08e';
     mensagem.innerHTML = "A senha deve conter um caractere maiúsculo, especial e um número";
 }else{
     mensagem.style.color = 'green';
     mensagem.style.backgroundColor = '#12d66a';
     mensagem.innerHTML = "Login válido!"
+}
 }
 
 botao.addEventListener("click", (e)=> {

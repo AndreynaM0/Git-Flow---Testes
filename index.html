@@ -8,20 +8,24 @@
 </head>
 <body class="corpo">
     <div class="blocoPrincipal">
-    <form>
-        <h3>Login</h3>
-    </form>
-    
-        <div class="email">
-            <input class="inputEstilizacao" id="email" type="text" placeholder="Digite seu e-mail...">
-        </div>
-        <div class="senha">
-            <input class="inputEstilizacao" ="text" placeholder="Digite sua senha...">
-        </div>
-        <div>
-            <button id="botao" onclick="validacao()">Login</button>
-        </div>
-   
+        <form>
+            <h3>Login</h3>
+        
+            <div class="email">
+                <input class="inputEstilizacao" id="email" type="text" placeholder="Digite seu e-mail...">
+            </div>
+            <div class="senha">
+                <input class="inputEstilizacao" id="senha" type="text" placeholder="Digite sua senha...">
+            </div>
+            <div>
+                <button id="botao" onclick="validarCampos()">Login</button>
+            </div>
+            <div>
+                <span class="mensagem" id="mensagem"></span>
+            </div>
+        </form>
+        
+    </div>
 </body>
-<script src="script.js"></script>
+<script src="./script.js"></script>
 </html>
