@@ -1,26 +1,27 @@
 # Git-Flow---Testes
-<h2>Principais Comandos do GitHub e GitFlow<h2/>
+<h3>Principais Comandos do GitHub e GitFlow<h3/>
 <br>
-<h4>Criar novo repositório: <h3/>
-*git init
 <br>
-<h4>Clonar repositório: <h3/>
-*git clone LINK_DO_REPOSITÓRIO
+<h3>Criar novo repositório: <h3/>
+<p>*git init</p>
 <br>
-<h4>Adicionar arquivos no staging: <h3/>
-*git add.
+<h3>Clonar repositório: <h3/>
+<p>*git clone LINK_DO_REPOSITÓRIO</p>
 <br>
-<h4>Verificar localização do arquivo: <h3/>
-*git status
+<h3>Adicionar arquivos no staging: <h3/>
+<p>*git add.</p>
 <br>
-<h4>Criar novo commit no repositório: <h3/>
-*git commit -m "MENSAGEM_DO_COMMIT"
+<h3>Verificar localização do arquivo: <h3/>
+<p>*git status</p>
 <br>
-<h4>Mudar de Branch: <h3/>
-*git switch<NOME_DA_BRANCH>
+<h3>Criar novo commit no repositório: </h3>
+<p>*git commit -m "MENSAGEM_DO_COMMIT"</p>
 <br>
-<h4>Apagar uma branch local: <h3/>
-*git -d<NOME_DA_BRANCH>
+<h3>Mudar de Branch: <h3/>
+<p>*git switch<NOME_DA_BRANCH></p>
 <br>
-<h4>Subir arquivos em um repositório remoto: <h3/>
-*git push origin NOME_DA_BRANCH
+<h3>Apagar uma branch local: </h3>
+<p> *git -d<NOME_DA_BRANCH> </p>
+<br>
+<h3>Subir arquivos em um repositório remoto: </h3>
+<p>*git push origin NOME_DA_BRANCH</p>
